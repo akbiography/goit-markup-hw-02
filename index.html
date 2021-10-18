@@ -5,111 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Шапка сайта -->
     <header>
         <nav>
-        <a href="/">Web studio</a>
-        <ul>
+        <a href="/" lang="en" class="logo-name"> <span class="name-web">Web</span> Studio</a>
+        <ul class="list-nav">
+            <li><a href="./index.html" class="link-primary">Студия</a></li>
             <li>
-                <a href="">Студия</a>
+                <a href="./portfolio.html" class="link">Портфолио</a>  
             </li>
             <li>
-                <a href="">Портфолио</a>  
-            </li>
-            <li>
-                <a href="">Контакты</a>
+                <a href="./contacts.html" class="link">Контакты</a>
             </li>
 
         </ul>
         </nav>
-        <ul>
+        <!-- Контакты шапки -->
+        <ul class="adress-top">
         <li>
             <a href="mailto:info@devstudio.com">
                 <img src="./img/envelope.svg" alt="значок письма">
             </a>
             
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
         </li>
         <li>
             <a href="tel:+380961111111">
                 <img src="./img/smartphone.svg" alt="значок смартфона">
             </a>
             
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
         
         </ul>
-        
     </header>
+
     <!-- Секция Блок -->
     <main>
     <div>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <div class="button">
+            <button type="button" class="button-main">Заказать услугу</button>
+            </div>
         </section>
     </div>
     <!-- Секция Значение -->
-    <section>
-        <h2>Значение</h2>
-        <ul>
+    <section class="section">
+        <h2 class="title" hidden>Значение</h2>
+        <ul class="feature-list">
             <li>
-                
-                <img src="./img/antenna1.svg" alt="">
-                <h3>Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <img src="./img/antenna1.svg" alt="антена">
+                <h3 class="feature-title">Внимание к деталям</h3>
+                <p class="feature-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 
             </li>
             <li>
                 
                 <img src="./img/clock1.svg" alt="часы">
-                <h3>Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <h3 class="feature-title">Пунктуальность</h3>
+                <p class="feature-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li>
                 
-                <img src="./img/Vector.svg" alt="">
-                <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <img src="./img/Vector.svg" alt="компьютер">
+                <h3 class="feature-title">Планирование</h3>
+                    <p class="feature-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li>
                 
-                <img src="./img/astronaut1.svg" alt="">
-                <h3>Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <img src="./img/astronaut1.svg" alt="космонавт">
+                <h3 class="feature-title">Современные технологии</h3>
+                <p class="feature-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
     <!-- Секция Чем мы занимаемся-->
-    <section>
-        <h2>Чем мы занимаемся</h2>
+    <section class="section">
+        <h2 class="title">Чем мы занимаемся</h2>
         <ul>
             <li>
                 <img src="./img/img1.jpg" width="370" height="294" alt="ноутбук">
-                <p>Десктопные приложения</p>
+                <p class="we-do-item">Десктопные приложения</p>
             </li>
             <li>
                 <img src="./img/img2.jpg" width="370" height="294" alt="">
-                <p>Мобильные приложения</p>
+                <p class="we-do-item">Мобильные приложения</p>
 
             </li>
             <li>
                 <img src="./img/img3.jpg" width="370" height="294" alt="">
-                <p>Дизайнерские решения</p>
+                <p class="we-do-item">Дизайнерские решения</p>
             </li>
 
         </ul>
     </section>
     <!-- Секция Наша команда -->
-    <section>
-        <h2>Наша команда</h2>
+    <section class="section">
+        <div class="team">
+        <h2 class="title">Наша команда</h2>
         <ul>
             <li>
                 <img src="./img/t1.jpg" width="270" height="260" alt="фото сотрудника">
-                <h3>Николай Кучеренко</h3>
-                <p>Product Designer</p>
+                <h3 class="team-name">Николай Кучеренко</h3>
+                <p class="team-position" >Product Designer</p>
                 <ul>
                     <li>
                         <a href="">
@@ -135,8 +138,8 @@
             </li>
             <li>
                 <img src="./img/t2.jpg" width="270" height="260" alt="фото сотрудника">
-                <h3>Ольга Иванова</h3>
-                <p>Frontend Developer</p>
+                <h3 class="team-name">Ольга Иванова</h3>
+                <p class="team-position" >Frontend Developer</p>
                 <ul>
                     <li>
                         <a href="">
@@ -163,8 +166,8 @@
             </li>
             <li>
                 <img src="./img/t3.jpg" width="270" height="260" alt="фото сотрудника">
-                <h3>Андрей Шевченко</h3>
-                <p>Marketing</p>
+                <h3 class="team-name">Андрей Шевченко</h3>
+                <p class="team-position" >Marketing</p>
     <ul>
     <li>
         <a href="">
@@ -190,8 +193,8 @@
             </li>
             <li>
                 <img src="./img/t4.jpg" width="270" height="260" alt="фото сотрудника">
-                <h3>Иван Николаев</h3>
-                <p>UI Designer</p>
+                <h3 class="team-name">Иван Николаев</h3>
+                <p class="team-position" >UI Designer</p>
     <ul>
     <li>
         <a href="">
@@ -216,39 +219,40 @@
     </ul>
             </li>
         </ul>
+        </div>
     </section>
     <!-- Секция постоянные клиенты -->
-    <section>
-       <h2>Постоянные клиенты</h2>
+    <section class="section">
+       <h2 class="title">Постоянные клиенты</h2>
        <ul>
            <li>
                <a href="">
-                   <img src="./img/logo1.svg" alt="значок">
+                   <img src="./img/logo1.svg" alt="значок" class="clients-link">
                </a>
            </li>
         <li>
             <a href="">
-                <img src="./img/logo2.svg" alt="значок">
+                <img src="./img/logo2.svg" alt="значок" class="clients-link">
             </a>
         </li>
         <li>
             <a href="">
-                <img src="./img/logo3.svg" alt="значок">
+                <img src="./img/logo3.svg" alt="значок" class="clients-link">
             </a>
         </li>
         <li>
             <a href="">
-                <img src="./img/logo4.svg" alt="значок">
+                <img src="./img/logo4.svg" alt="значок" class="clients-link">
             </a>
         </li>
         <li>
             <a href="">
-                <img src="./img/logo5.svg" alt="значок">
+                <img src="./img/logo5.svg" alt="значок" class="clients-link">
             </a>
         </li>
         <li>
             <a href="">
-                <img src="./img/logo6.svg" alt="значок">
+                <img src="./img/logo6.svg" alt="значок" class="clients-link">
             </a>
         </li>
         
@@ -256,43 +260,46 @@
     </section>
     </main>
     <!-- Подвал сайта -->
-    <footer>
-        <a href="/">Web studio</a>
-        <ul>
+    <footer class="footer">
+        <div>
+        <a href="./index.html" class="logo-name"><span class="name-web">Web</span> Studio</a>
+        <ul class="adress-list">
             <li>
-        <address> г. Киев, пр-т Леси Украинки, 26</address>
+        <address class="map"> г. Киев, пр-т Леси Украинки, 26</address>
         </li>
         <li>
-        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="mailto:info@example.com" class="link">info@example.com</a>
         </li>
         <li>
-        <a href="tel:+380961111111">+38 099 111 11 11</a>
+        <a href="tel:+380961111111" class="link">+38 099 111 11 11</a>
         </li>
          </ul>
-         <b>присоединяйтесь</b>
+        </div>
+
+         <b class="action">присоединяйтесь</b>
          <ul>
              <li>
                  <a href="">
-                 <img src="./img/instagram.svg" alt="значок социальной сети">
+                 <img src="./img/instagram.svg" alt="значок социальной сети" class="social-link">
                 </a>
              </li>
              <li>
                  <a href="">
-                 <img src="./img/twiter.svg" alt="значок социальной сети">
+                 <img src="./img/twiter.svg" alt="значок социальной сети" class="social-link">
                 </a>
              </li>
              <li>
                  <a href="">
-                 <img src="./img/facebook.svg" alt="значок социальной сети">
+                 <img src="./img/facebook.svg" alt="значок социальной сети" class="social-link">
                 </a>
              </li>
              <li>
                  <a href="">
-                 <img src="./img/in.svg" alt="значок социальной сети">
+                 <img src="./img/in.svg" alt="значок социальной сети" class="social-link">
                 </a>
              </li>
          </ul>
-         <b>подпишитесь на рассылку</b>
+         <b class="action">подпишитесь на рассылку</b>
     </footer>
 </body>
 </html>

@@ -1,0 +1,206 @@
+/* основной цвет текста #212121 */
+/* активный цвет текста #2196F3 */
+/* дополнительный цвет текста #757575 */
+/* второй дополнительный цвет текста #ffffff */
+/* основной цвет фона #ffffff */
+/* дополнительный цвет фона #AFB1B8 */
+/* активный цвет проектов портфолио rgba(33, 150, 243, 0.9); */
+/* основные */
+:root {
+  --main-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --secondary-text-color: #757575;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #afb1b8;
+  --team-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --portfolio-accent-color: rgba(33, 150, 243, 0.9);
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.logo-name {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.name-web {
+  color: var(--accent-text-color);
+}
+.list-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.link-primary {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+}
+
+.list-nav .link:hover,
+.list-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.adress-top .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.adress-top .link:hover,
+.adress-top .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* основная инфо страницы студио */
+
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--footer-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+}
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+.button-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-bg-color);
+  background-color: var(--accent-text-color);
+}
+/* Секция значение */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.feature-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.section > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.we-do-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--main-bg-color);
+}
+.team {
+  background-color: var(--team-bg-color);
+}
+.team > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+  width: 170px;
+  height: 90px;
+  background-color: var(--accent-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer .logo-name {
+  color: var(--main-bg-color);
+}
+.adress-list .map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-bg-color);
+}
+.adress-list .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+}
+.social-link:hover,
+.social-link:focus {
+  width: 44px;
+  height: 44px;
+  color: var(--accent-text-color);
+}
